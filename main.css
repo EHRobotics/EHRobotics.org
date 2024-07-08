@@ -1,0 +1,84 @@
+:root {
+    --eh-blue: #1cb0eeff;
+}
+
+html {
+    background-color: #121212;
+    color: #aaaaaa;
+    font-family: 'OpenSans', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+}
+
+section {
+    width: 85%;
+    margin-left: 7.5%;
+    background-color: #1a1a1a;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+nav {
+    background-color: black;
+    display: block;
+}
+
+.content {
+    min-height: 1000px;
+    width: 80%;
+    background-color: #1a1a1a;
+    margin-left: 10%;
+}
+
+#banner-image {
+    width: 20%;
+    min-width: 250px;
+}
+
+.big-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.big-logo-image {
+    background-color: black;
+    border-radius: 1.5%;
+    box-sizing: border-box;
+    border: 20px solid #121212;
+}
+
+.card {
+    width: 40%;
+    background-color: #121212;
+    border-radius: 1.5%;
+    text-align: center;
+}
+
+.card h1 {
+    font-size: xx-large;
+    padding-bottom: 20px;
+}
+
+.intro {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: larger;
+}
+
+@media screen and (max-width: 900px) {
+    .big-logos {
+        flex-direction: column;
+    }
+    .card {
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: 5%;
+    }
+}
